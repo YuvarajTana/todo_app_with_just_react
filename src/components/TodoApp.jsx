@@ -57,10 +57,7 @@ class TodoApp extends Component{
 	}
 
 	render(){
-		
 		let { todos, visbilityFilter } = this.state; 
-
-		
 
 		let filterTodos = todos.filter((todo) => {
 
